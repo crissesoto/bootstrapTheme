@@ -11,11 +11,13 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css">
     <title>Bootstrap website</title>
   </head>
   <body>
+    <!-- Navigaton -->
     <div class="pos-f-t navbar-expand-lgs">
-      <nav class="navbar  navbar-light bg-light">
+      <nav class="navbar  navbar-light" style="background-color: #f5f6ee;">
         <span class="navbar-brand  h1">Crisse</span>
         <button
           class="navbar-toggler"
@@ -30,7 +32,7 @@
         >
           <span class="navbar-toggler-icon"></span>
           <div class="dropdown" id="navbarToggleExternalContent">
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" style="background-color: #f5f6ee;">
                 <a class="dropdown-item" href="#">Home</a>
                 <a class="dropdown-item" href="#">Work</a>
                 <a class="dropdown-item" href="#">Contact</a>
@@ -43,6 +45,20 @@
 
     </div>
   </div>
+      <!-- End Navigaton -->
+
+      <div class="container">
+        <header>
+          <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+          <div class="row">
+            <main class="col-12 col-md-10">.col-12 .col-md-8</main>
+            <aside class="col-12 col-md-2">.col-6 .col-md-4</aside>
+          </div>
+        </header>
+      </div>
+        
+        
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
