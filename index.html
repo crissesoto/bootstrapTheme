@@ -11,6 +11,9 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <!-- Fontawesome-->
+    <script src="https://kit.fontawesome.com/f60e860403.js" crossorigin="anonymous"></script>
+    <!-- Stylesheet-->
     <link rel="stylesheet" href="style.css">
     <title>Bootstrap website</title>
   </head>
@@ -47,12 +50,28 @@
   </div>
       <!-- End Navigaton -->
 
+      <!-- Main section-->
+
       <div class="container">
         <header>
           <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-          <div class="row">
-            <main class="col-12 col-md-10">.col-12 .col-md-8</main>
-            <aside class="col-12 col-md-2">.col-6 .col-md-4</aside>
+          <div class="row align-items-center">
+              <div class="row text-center col-3 col-md-12 main-content">
+                  <div class="card" style="width: 18rem;">
+                    <span style="font-size: 48px;">
+                        <i class="fas fa-city"></i>
+                    </span>
+                      
+                      <div class="card-body">
+                        <h5 class="card-title">Your EMP Back OfficeTour</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div style="width: 20%; height: 2px; margin: 20px auto; background-color: lightslategray;"></div>
+                        <a href="#" class="btn btn-primary">LEARN MORE</a>
+                      </div>
+                  </div>
+                  
+
+              </div>
           </div>
         </header>
       </div>
