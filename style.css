@@ -3,3 +3,7 @@
   margin: 20px auto;
   height: 400px;
 }
+
+.card-body a {
+  color: #333;
+}
